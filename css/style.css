@@ -1,0 +1,546 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  overflow-x: hidden;	
+}
+
+.main-header{
+	height: auto;
+	width: 100%;
+}
+/*UPPER HEADER START*/
+.upper-header{
+	background-color:lightgray;
+	padding-top: 10px;
+	height:120px;
+	display: flex;
+	justify-content: space-between;
+}
+.rightSide{
+	margin-left: 45px;
+	display: flex;
+}
+.logo-caption{
+	margin-left: 25px;
+	line-height: center;
+	position: relative;
+}
+.logo-caption p{
+	 font-weight: bolder;
+	position: absolute;
+padding-left: 150px;
+ font-size: 15px;
+}
+.leftItem{
+	margin-right:90px;
+} 
+.socialIcone a{
+  	display: inline-block;
+  	text-decoration: none;
+  	float: right;
+  	padding-right: 5px;
+  	margin-left: 10px;
+    color: gray;
+    width: 30px;
+  }
+.phone{
+	display: inline-block;
+	margin: 5px;
+}
+.phone a{
+	color: brown;
+	padding-left:140px;
+}
+.searchBox{
+	margin-left:75px;
+}
+ .searchBox input{
+    height: 30px;
+    
+ }
+ .searchBox a{
+ 	background-color: brown;
+ 	color: white;
+ 	border: 6px solid brown;
+ 	margin-left: 2px;
+ }
+/* UPPER HEADER SOCIAL ICONE HOVER START*/
+.socialIcone a:hover{
+  	 transition-property: all;
+  	 transition-duration: 0.5s;
+  	 transition-timing-function: ease-in-out;
+  	 width: 50px;
+  }
+   .searchBox input:hover{
+   	transition-property: all;
+   	transition-duration: 1s;
+   	transition-timing-function: ease-in;
+   	width: 150px;
+   	height: 50px;
+   }
+
+/* upper header end-----------------/*/
+/*MENU START*****/
+.menu{
+	background-color: brown;
+	height: 60px;
+}
+ul{
+	line-height: 60px;
+	display: flex;
+	margin: 0 auto;
+}
+ul li{
+	text-decoration:none;
+	list-style:none;
+	padding-left: 60px;
+}
+ul li a{
+	color: white;
+	text-decoration:none;
+}
+/*header end -------------*/
+.slide{
+	height: auto;
+	width: 100%;
+	margin:0 auto;
+    position: relative;
+}
+.slide img{
+	width: 100%;	
+}
+.inner-img{
+	position: absolute;
+	width: 35%;
+	height: 60%;
+	position: absolute;
+   bottom: 0;
+   right: 96px;
+   overflow-y:hidden;
+}
+.paragraph{
+	position: absolute;
+	top: 25%;
+	left: 5%;
+	width: 100%;
+	color: white;
+}
+.paragraph h3 {
+	margin:15px;
+}
+.paragraph button{
+	font-size: 25px;
+	margin: 25px;
+	padding: 5px;
+	color: white;
+	border:1px solid white;
+	background-color: rgba(0,0,0,0);
+}
+.paragraph button:hover {
+	text-decoration-line: underline;
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+	font-size: 35px; 
+	background: red;
+}
+
+/*slider end **************************************/
+.popularDestination{
+	position: relative;
+	width: 100%
+	height: 150px;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+.PopularCaption h1 {
+	text-align: center;
+    margin-bottom: 10px;
+    color: brown;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+ .PopularCaption p{
+ 	text-align: center;
+	}
+	/*popularDestination Capionendden end*****;*/
+
+.ImgDIV{
+	  	height: auto;
+     	width: 100%;
+     	display: grid;
+     	grid-template-rows: repeat(3,1fr);
+     	grid-template-columns: repeat(3,1fr);
+     	grid-gap: 15px;
+	  }
+.imgbox{
+	height: auto;
+	position: relative;
+	margin-left: 15px;
+}
+
+.ImgDIV img{
+	width: 100%;
+	border-radius: 5px;	
+}
+.imgPara{
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: 2px solid rgba(0,0,0,0.5);
+   width: 250px;
+  height: 20%;
+  font-size: 24px;
+}
+.imgPara p{
+	text-align: center;
+	position: absolute;
+	padding-top: 10%;
+	padding-left: 30%;
+}
+/*END OF IMB BOX/**********/
+
+.btndiv{
+	margin-top: 55px;
+	margin-bottom: 50px;
+	height: auto;
+	width: 100%;
+	margin-left: 42%;
+}
+.loadmBTN{
+    font-weight: bold;
+	width: 200px;
+	font-size: 30px;
+	text-align: center;
+	border:1px solid red;
+	border-width: medium;
+	background: rgba(0,0,0,0);
+	color: red;
+}
+.loadmBTN:hover{
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function:inherit;
+	font-size: 35px;
+	width: 250px;
+	background: red;
+	color: white;
+}
+/* LOAD MORE BUTTON END -----*/
+
+.secondSlid{
+	height: auto;
+	width: 100%;
+    position: relative;
+}
+.secondSlid img{
+width: 100%;	
+}
+.secSlidParagraph{
+	color: white;
+	position: absolute;
+	top: 30%;
+	left: 6%;
+	width: 100%;
+}
+.secSlidParagraph p{
+	margin-top: 10px;
+	margin-bottom: 15px;
+	font-size: 24px;
+}
+.secSlidParagraph button {
+	padding: 10px;
+	border:1px solid red;
+	font-size: 24px;
+	background: darkred;
+	color: white;
+}
+.secSlidParagraph button:hover{
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+	font-size: 35px;
+	background: red;
+}
+/*second slide end*******/
+
+.aboutTravelHouse{
+	margin-top: 60px;
+	margin-bottom: 50px;
+	position: relative;
+	width: 100%
+	height: 150px;	
+}
+
+.TravelHouseCaption h1 {
+    color: brown;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+ .TravelHouseCaption p{
+ 	margin-top: 20px;
+ 	text-align: center;
+ 	font-size: 18px;
+	}
+
+	/*anout Travel House end */
+.aboutTH{
+	width: 100%;
+	display:grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(2,1fr);
+	grid-gap:40px 20px;
+	align-content: center;
+	justify-content: space-around;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 25px;
+}	
+.aboutTH h3{
+	margin-top: 5px;
+	color: brown;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+  /*end anout Travel House paragraph */
+
+	.tourPackages{
+		margin-top: 55px;
+		margin-bottom: 50px;
+	}
+.tourPackages h1 {
+	text-align: center;
+  margin-bottom: 10px;
+    color: brown;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+ .tourPackagesCaption p{
+ 	text-align: center;
+ 	font-size: 18px;
+
+	}
+	/*about Travel House end */
+
+.AlltourPackages{
+	  	height: auto;
+     	width: 100%;
+     	margin-left: 30px;
+	  }
+.TourImg{
+	display: block;
+	float: left;
+	width: 30%;
+	height: auto;
+	margin-left: 30px;
+	position: relative;
+	margin: 10px;
+}
+.TourImg img{
+	width: 100%;
+	height: 100%;
+}
+
+.AlltourPackagesimg{
+	width: 100%;
+	border-radius: 5px;	
+}
+.innerTourImg{
+   position: absolute;
+   bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: 1px solid rgba(0,0,0,0.5);
+   width: 100%;
+   height: 100%;
+   font-weight: normal;
+}
+
+  .para-h1{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 30px;
+    text-align: center;
+ }
+ .para-h1 button{
+ 	background: rgba(0,0,0,0);
+ 	color: white;
+ 	border: 1px solid white;
+ 	width: 120px;
+ 	height: 40px;
+ 	margin-top: 20px;
+ 	font-weight: normal;
+ 	font-size: 20px;
+ }
+ .innerTourImg:hover{
+ 	transition-property: all;
+ 	background: rgba(0,0,0,-9);
+ 	transition-duration: 1s;
+ 	transition-timing-function:ease-in-out;
+ }
+ .para-h1 button:hover{
+ 	transition-property: all;
+ 	transition-duration: 1s;
+ 	transition-timing-function: ease-out;
+ 	font-size: 24px;
+ 	width: 150px;
+ 	height: 45px;
+ 	background: red;
+ }
+
+/*OUR PACKAGES EDD **************/
+
+.members{
+    background: lightgray;
+	margin-bottom: 85px;
+	margin-top: 50px;
+	height: auto;	
+}
+.rightSideMembers{
+	float: left;
+	padding-left: 30px;
+	margin-top: 40px;
+}
+ .rightSideMembers img{
+ 	margin-right: 40px;
+ }
+
+.rightSideMembers h1{
+margin-bottom: 40px;
+}
+.leftMember{
+	float: right;
+	padding: 20px;
+}
+.leftMember img{
+ margin-right: 50px;
+}
+
+/*   member and affilitations end ***********/
+.footer{
+	margin-top: 50px;
+	height: auto;
+	padding-left: 40px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4,1fr); 
+}
+.company a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	padding-left:  25px;
+	padding-bottom:  6px;
+}
+.footer h2{
+	padding-left:  20px;
+	padding-bottom: 10px;
+}
+.contactUs{
+	margin-left: 20px;
+
+}
+.contactUs a{
+	list-style: none;
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+.company a:hover{
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: step-end;
+	font-size: 24px;
+}
+
+.contactUs a:hover{
+    transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: inherit;
+	font-size: 24px;
+}
+
+.emailS{
+	display: flex;
+}
+.emailS input{
+ height: 40px;
+ width: 200px;
+ margin-left: 20px;
+ text-align: center;
+ margin-top: 5px;
+ margin-bottom: 35px;
+
+}
+.emailS a {
+background: brown;
+ width: 50px;
+ height: 40px;
+ line-height: 40px;
+ display: inline-block;
+	text-align: center;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.emailS a:hover{
+	transition-property: all;
+	transition-duration: 2s;
+	transition-timing-function: ease;
+	width: 60px;
+	height:50px;
+	line-height: 50px;
+}
+
+.lastSocialIcon a{
+	width: 50px;
+	margin-left: 15px;
+	height:30px;
+	line-height: 30px;
+	background: rgba(0,0,0,0.5);
+	display: inline-block;
+	text-align: center;
+}
+
+
+.lastSocialIcon a:hover{
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+	width: 60px;
+	height:40px;
+	line-height: 40px;
+	background: darkred;
+}
+.TripadvisorIMG img{
+	margin-top: 45px;
+  padding-left: 20px;
+  width: auto;
+  height: 100%;
+}
+
+
+
+/***** FOOTER END ******/
+.Copyrigth{
+	width: 100%;
+	height: 20px;
+ background-color: gray;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
